@@ -17,7 +17,7 @@ Use this repository as a template to get started with the glasskube-argo-gitops-
 **Installation**
 
 1. Create a public GitHub repository based on this starter template. You can move it and/or make it private afterwards.
-2. In [`bootstrap/glasskube-application.yaml`](bootstrap/glasskube-application.yaml) and `bootstrap/glasskube/applicationset.yaml`, change the `repoURL` to your repository.
+2. In [`bootstrap/glasskube-application.yaml`](bootstrap/glasskube-application.yaml#L12) and `bootstrap/glasskube/applicationset.yaml`, change the `repoURL` to your repository.
 3. Run `glasskube bootstrap gitops --repository <your-repo>`.
 
 As a result, your cluster will be powered with GitOps capabilities by ArgoCD, as well as package management features by
